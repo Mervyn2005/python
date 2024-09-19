@@ -73,7 +73,7 @@ print(b)
 a = input ("Enter an sentence :")
 a = a . capitalize()
 print(a)
-
+print("hi")
 
 
 

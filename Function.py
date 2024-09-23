@@ -34,15 +34,15 @@ n = int(input("Enter an number for factorising :"))
 fact=factorial(n)
 print(f"The factorial of {n} is {fact}")
 
-### 4 . Reversing string
-##
-##def reverse_string(s):
-##    if len(s)==0:
-##        return s
-##    return reverse_string(s[1:])+s[0]
-##s = input("Enter a string : ")
-##b=reverse_string(s)
-##print(f"The string {s} after reversing is {b}")
+# 4 . Reversing string
+
+def reverse_string(s):
+   if len(s)==0:
+       return s
+   return reverse_string(s[1:])+s[0]
+s = input("Enter a string : ")
+b=reverse_string(s)
+print(f"The string {s} after reversing is {b}")
 
 # 5 . finding max of an number
 
